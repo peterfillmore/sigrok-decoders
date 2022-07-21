@@ -1,10 +1,4 @@
 <div id="top"></div>
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -57,9 +51,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About Sigrok-Decoders 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-[![Product][pic12-screenshot]](https://github.com/peterfillmore/sigrokdecoders/images)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,12 +71,11 @@ Copy decoder into the libsigrokdecode/decoders folder, or set the SIGROKDECODE_D
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-###PIC12
-####Viewing the signals
+### PIC12
+#### Viewing the signals
 Name the clock signal as PGC, data signal as PGD. Target voltage and program voltage not yet implemented.
 
-####dumping a read or write operations to binary
+#### dumping a read or write operations to binary
 `SIGROKDECODE_DIR=./pic12 sigrok-cli -i ./traces/pic12f629_readprogram.sr -P pic12 -B pic12=readchip > test.bin`
 `SIGROKDECODE_DIR=./pic12 sigrok-cli -i ./traces/pic12f629_writeprogram.sr -P pic12 -B pic12=loadchip > test.bin`
 
