@@ -1,0 +1,136 @@
+[General]
+decode_signals=1
+generated_signals=0
+meta_objs=5
+views=1
+
+[4]
+color=4293776384
+conv_options=0
+conversion_type=0
+enabled=false
+name=4
+
+[5]
+color=4285780502
+conv_options=0
+conversion_type=0
+enabled=false
+name=5
+
+[6]
+color=4281623972
+conv_options=0
+conversion_type=0
+enabled=false
+name=6
+
+[7]
+color=4285878395
+conv_options=0
+conversion_type=0
+enabled=false
+name=7
+
+[PGC]
+color=4279638298
+conv_options=0
+conversion_type=0
+enabled=true
+name=PGC
+
+[PGD]
+color=4287582722
+conv_options=0
+conversion_type=0
+enabled=true
+name=PGD
+
+[VDD]
+color=4294277376
+conv_options=0
+conversion_type=0
+enabled=true
+name=VDD
+
+[VPP]
+color=4291559424
+conv_options=0
+conversion_type=0
+enabled=true
+name=VPP
+
+[decode_signal0]
+channel0\assigned_signal_name=PGC
+channel0\initial_pin_state=2
+channel0\name=PGC
+channel1\assigned_signal_name=PGD
+channel1\initial_pin_state=2
+channel1\name=PGD
+channel2\initial_pin_state=2
+channel2\name=VCC
+channel3\assigned_signal_name=VPP
+channel3\initial_pin_state=2
+channel3\name=VPP
+channels=4
+color=4281510450
+conv_options=0
+conversion_type=0
+decoder0\ann_class0\visible=true
+decoder0\ann_class1\visible=true
+decoder0\ann_class2\visible=true
+decoder0\id=pic12
+decoder0\options=0
+decoder0\row0\visible=true
+decoder0\row1\visible=true
+decoder0\row2\visible=true
+decoder0\visible=true
+decoders=1
+enabled=true
+name=pic12
+
+[meta_obj0]
+assoc_view=0
+text=-4 s
+time=22 serialization::archive 17 0 0 0 0 40618 78191048 38796754 89950107 78403133 31371112 -8 0 0 6
+type=time_marker
+
+[meta_obj1]
+assoc_view=0
+text=-4 s
+time=22 serialization::archive 17 0 0 0 0 40625 2545278 77691226 11202575 96260737 81141462 -8 0 0 6
+type=time_marker
+
+[meta_obj2]
+assoc_view=0
+text=-2 s
+time=22 serialization::archive 17 0 0 0 0 2 16468231 28058863 12662282 5304172 28945812 0 0 0 6
+type=time_marker
+
+[meta_obj3]
+assoc_view=0
+text=-2 s
+time=22 serialization::archive 17 0 0 0 0 2 16468237 49411390 48484443 27269713 71716555 0 0 0 6
+type=time_marker
+
+[meta_obj4]
+assoc_view=0
+end_time=22 serialization::archive 17 0 0 0 0 3 80302168 31849345 40851168 10113195 19832154 0 0 0 6
+start_time=22 serialization::archive 17 0 0 0 0 409599 99999999 99814648 26603883 1155762 42883242 -8 0 0 6
+type=selection
+
+[view0]
+4\trace_height=32
+5\trace_height=32
+6\trace_height=32
+7\trace_height=32
+PGC\trace_height=32
+PGD\trace_height=32
+VDD\trace_height=32
+VPP\trace_height=32
+offset=22 serialization::archive 17 0 0 0 0 38 40166503 74692388 29952450 93531903 1105956 0 1 0 6
+scale=0.058903959135595492
+segment_display_mode=3
+splitter_state=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\0O\0\0\x3\xf3\x1\0\0\0\x1\x1\0\0\0\x1\0)
+v_offset=-23
+zero_offset=22 serialization::archive 17 0 0 0 0 0 0 0 0 0 0 0 0 0 6
